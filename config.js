@@ -1,1 +1,0 @@
-window.ZYNEX_CONFIG=Object.freeze({company:"ZYNEX",whatsapp:"+249129452041",email:"zynex3848@gmail.com",logo:"https://i.imgur.com/M1m2t1p.jpg",api:"/api"});
