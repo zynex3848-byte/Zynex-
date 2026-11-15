@@ -1,0 +1,19 @@
+name = "zynex"
+main = "src/worker.js"
+compatibility_date = "2026-11-14"
+workers_dev = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "zynex-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+APP_NAME = "ZYNEX"
+APP_ENV = "production"
+GROQ_MODEL = "openai/gpt-oss-120b"
